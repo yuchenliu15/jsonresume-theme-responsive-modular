@@ -1,0 +1,14 @@
+{
+  "name": "jsonresume-theme-responsive-modular",
+  "version": "0.1.2",
+  "description": "JSON Resume",
+  "author": "Yuchen Liu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuchenliu15/jsonresume-theme-responsive-modular"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  }
+}
