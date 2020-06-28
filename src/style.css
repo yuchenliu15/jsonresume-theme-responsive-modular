@@ -26,7 +26,6 @@ blockquote {
 }
 #resume {
 	margin: 0 auto;
-	max-width: 480px;
 	padding: 0 20px;
 }
 #basics {
@@ -52,3 +51,11 @@ blockquote {
 	width: 50%;
 }
 
+.page {
+	background: white;
+	width: 620px;
+	min-height: 800px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}

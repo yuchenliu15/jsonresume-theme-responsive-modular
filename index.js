@@ -3,9 +3,9 @@ var path = require('path');
 var Handlebars = require("handlebars");
 
 function render(resume) {
-	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
-	var tpl = fs.readFileSync(__dirname + "/resume.hbs", "utf-8");
-	var partialsDir = path.join(__dirname, 'partials');
+	var css = fs.readFileSync(__dirname + "/src/style.css", "utf-8");
+	var tpl = fs.readFileSync(__dirname + "/src/resume.hbs", "utf-8");
+	var partialsDir = path.join(__dirname, '/src/partials');
 	var filenames = fs.readdirSync(partialsDir);
 
 	filenames.forEach(function (filename) {
