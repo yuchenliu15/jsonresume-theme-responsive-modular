@@ -8,6 +8,11 @@
 			{{company}}
 		</h3>
 		{{/if}}
+		{{#if position}}
+		<div class="position">
+			<h4>{{position}}</h4>
+		</div>
+		{{/if}}
 		<div class="date">
 			{{#if startDate}}
 			<span class="startDate">
@@ -24,11 +29,7 @@
 			</span>
 			{{/if}}
 		</div>
-		{{#if position}}
-		<div class="position">
-			{{position}}
-		</div>
-		{{/if}}
+
 		{{#if website}}
 		<div class="website">
 			<a href="{{website}}">{{website}}</a>
@@ -42,7 +43,9 @@
 		{{#if highlights.length}}
 		<ul class="highlights">
 			{{#each highlights}}
-			<li><p>{{.}}</p></li>
+			<li>
+				<p>{{.}}</p>
+			</li>
 			{{/each}}
 		</ul>
 		{{/if}}

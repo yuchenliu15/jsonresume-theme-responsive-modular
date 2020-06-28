@@ -6,10 +6,8 @@
 		{{#if profiles.length}}
 		{{#each profiles}}
 		<div class="profiles">
-			{{#if name}}
-			<p>{{name}}</p>
-			{{/if}}
-			{{#if link}}
+			{{#if name }}
+			<strong>{{name}}</strong>
 			<p><a href={{link}}>{{link}}</a></p>
 			{{/if}}
 		</div>
