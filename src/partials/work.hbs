@@ -11,12 +11,12 @@
 		<div class="date">
 			{{#if startDate}}
 			<span class="startDate">
-				{{startDate}}
+				<p>{{startDate}}</p>
 			</span>
 			{{/if}}
 			{{#if endDate}}
 			<span class="endDate">
-				- {{endDate}}
+				<p>- {{endDate}}</p>
 			</span>
 			{{else}}
 			<span class="endDate">
@@ -42,7 +42,7 @@
 		{{#if highlights.length}}
 		<ul class="highlights">
 			{{#each highlights}}
-			<li>{{.}}</li>
+			<li><p>{{.}}</p></li>
 			{{/each}}
 		</ul>
 		{{/if}}

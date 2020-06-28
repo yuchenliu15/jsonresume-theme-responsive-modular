@@ -1,6 +1,7 @@
+
 body {
 	background: #fff;
-	font: 15px Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.4;
 	margin: 50px 0;
 	margin-bottom: 100px;
@@ -8,8 +9,21 @@ body {
 em {
 	color: #999;
 }
-p {
+h1 {
+	font-size: 28px;
+
+}
+h2 {
+	font-size: 20px;
+
+}
+h3 {
+	font-size: 15px;
+
+}
+p, strong {
 	line-height: 1.4;
+	font-size: 12px;
 }
 ul {
 	margin-bottom: 0;
